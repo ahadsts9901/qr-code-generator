@@ -12,7 +12,7 @@ body {
     /* color: #fff!important; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     row-gap: 1em;
     padding: 2em 0.5em;
@@ -115,10 +115,17 @@ column {
 }
 
 .img{
-    width: 60vmin;
-    height: 60vmin;
+    width: 240px;
+    height: 240px;
     opacity: 0;
-    /* border: 2px solid #212121; */
+    margin-bottom: 1em;
+    border: 2px solid #212121;
+    padding: 1em!important;
+
+}
+
+.show{
+    opacity: 1;
 }
 
 .input{
@@ -128,6 +135,7 @@ column {
     /* border-radius: 5px; */
     padding: 0.5em 0.7em;
     font-weight: 500!important;
+    width: 15em;
 }
 
 .input::placeholder{

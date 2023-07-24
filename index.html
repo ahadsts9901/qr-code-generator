@@ -6,7 +6,7 @@
     </meta>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     </meta>
-    <title>Document</title>
+    <title>QR Code Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </meta>
     <!-- icons cdn -->
@@ -48,11 +48,11 @@
         </div>
     </row>
     <img src="" class="img">
-    <form>
+    <form onsubmit="generateQR(event)">
         <input type="text" class="input" placeholder="example123">
     <row>
         <button type="submit" class="button"><i class="bi bi-arrow-repeat icon"></i> Generate QR</button>
-        <button type="button" class="button"><i class="bi bi-save icon"></i> Download QR</button>
+        <button type="button" class="button" onclick="download()"><i class="bi bi-save icon Download"></i> Download QR</button>
     </row>
     </form>
     <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
