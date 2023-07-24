@@ -1,0 +1,150 @@
+* {
+    font-family: "Josefin Sans", "sans-serif";
+    font-weight: bold!important;
+    outline: none;
+}
+
+body {
+    background-image: url(./assets/background.png);
+    background-repeat: repeat;
+    background-position: center;
+    /* background-color: #212121!important; */
+    /* color: #fff!important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 1em;
+    padding: 2em 0.5em;
+    margin: 0em;
+    width: 100vw;
+    height: 100vh;
+}
+
+i,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em !important;
+}
+
+.drop-down {
+    background-color: #fff;
+    color: #212121;
+    border: 0px;
+    padding: 0em;
+    margin: 0em;
+}
+
+.dropdown-menu.show {
+    background-color: #fff;
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.drop-down-options {
+    /* background-color: #fff; */
+    color: #212121;
+    border: 0px;
+}
+
+.list {
+    width: 8em;
+    margin: 0em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+a,
+.list>a {
+    color: #212121;
+    text-decoration: none !important;
+    margin: 0.5em 0.3em !important;
+}
+
+.icon {
+    margin-right: 0.5em !important;
+}
+
+row {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1em;
+    column-gap: 1em;
+}
+
+column {
+    display: flex;
+    justify-content: center;
+    /* justify-content: right; */
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    row-gap: 1em;
+}
+
+.button {
+    color: #fff;
+    background-color: #212121;
+    width: fit-content;
+    /* height: 2.5em; */
+    border: 0px;
+    padding: 0.8em!important;
+    /* border-radius: 15px; */
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:active {
+    background-color: #313131;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.img{
+    width: 60vmin;
+    height: 60vmin;
+    opacity: 0;
+    /* border: 2px solid #212121; */
+}
+
+.input{
+    color: #212121;
+    background-color: #fff;
+    border: 1px solid #888;
+    /* border-radius: 5px; */
+    padding: 0.5em 0.7em;
+    font-weight: 500!important;
+}
+
+.input::placeholder{
+    color: #888;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+@media only screen and (max-width: 320px){
+    .button{
+        font-size: 0.6em;
+        padding: 1em!important;
+    }
+}
